@@ -7,11 +7,11 @@ public class Help {
         
         if(i == '1')
         {
-            System.out.println("\n" + "The if: " + "\n" + "if(condition) statement");
+            System.out.println("\n" + "The if: " + "\n" + "if(condition) statement" + "\n");
         }
         if(i == '2')
         {
-            System.out.println("\n" + "The switch: " + "\n" + "switch(expression){" + "\n" + "case constant1:" + "\n" + "statement sequence" + "\n" + "break;" + "\n" + "case constant2:" + "\n" + "statement sequence" + "\n" + "break;");
+            System.out.println("\n" + "The switch: " + "\n" + "switch(expression){" + "\n" + "\tcase constant1:" + "\n" + "\t\tstatement sequence" + "\n" + "\t\tbreak;" + "\n" + "\tcase constant2:" + "\n" + "\t\tstatement sequence" + "\n" + "\t\tbreak;" + "\n");
         }
     }
 }
